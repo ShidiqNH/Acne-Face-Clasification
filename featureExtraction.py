@@ -34,7 +34,7 @@ for filename in os.listdir(folder_path):
 df = pd.DataFrame(data, columns=["Filename", "LBP Histogram Value"])
 
 # Save the DataFrame to a CSV file
-csv_file_path = "lbpValueJerawat.csv"
+csv_file_path = "" # CSV path here
 df.to_csv(csv_file_path, index=False)
 
 print(f"Data has been saved to {csv_file_path}")
