@@ -1,5 +1,5 @@
 
-# Acne Face Classifiacation
+# Acne Face Classification
 
 This Python project implements a Skin Classification application utilizing machine learning and image processing techniques to classify facial skin types. The primary focus is on differentiating between acne-prone skin and normal skin.
 
