@@ -21,7 +21,7 @@ def process_image(image_path):
     lbp_hist_str = ','.join(map(str, lbp_hist))  # Convert histogram to a comma-separated string
     return [filename, lbp_hist_str]
 
-folder_path = "DONE"
+folder_path = "" #Folder path here
 data = []
 
 for filename in os.listdir(folder_path):
